@@ -1,0 +1,6 @@
+--- Starting FL Data Poisoning Detection Simulation ---
+Inspection Latency: 154.71 milliseconds
+Detection Precision: 100.00%
+Detection Recall: 100.00%
+Detection F1-Score: 100.00%
+Number of models aggregated: 8 / 10
