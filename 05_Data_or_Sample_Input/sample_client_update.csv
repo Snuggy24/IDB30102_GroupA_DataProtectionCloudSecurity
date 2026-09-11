@@ -1,1 +1,8 @@
-
+client_id,round_number,weight_mean,weight_std,gradient_norm,sample_count,is_poisoned
+client_node_01,1,0.0124,0.0845,1.241,500,0
+client_node_02,1,0.0119,0.0839,1.238,500,0
+client_node_03,1,-0.8412,2.4105,8.912,500,1
+client_node_04,1,0.0121,0.0841,1.245,500,0
+client_node_05,1,0.0125,0.0848,1.239,500,0
+client_node_06,2,0.0115,0.0820,1.210,500,0
+client_node_07,2,-0.9102,2.8810,9.102,500,1
