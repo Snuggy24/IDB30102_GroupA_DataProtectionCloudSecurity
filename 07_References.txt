@@ -1,0 +1,105 @@
+# 07_References: External Resources and Bibliography
+
+This directory documents all academic literature, benchmark datasets, open-source repositories, software frameworks, and technical standards referenced throughout this research proposal.
+
+---
+
+## 1. Academic Research Papers (APA 7th Edition)
+
+1. **Basak, S., & Chatterjee, K.** (2025). DPAD: Data poisoning attack defense mechanism for federated learning-based system. *Computers & Electrical Engineering*, 121, 109893.  
+   * **DOI / URL:** [https://doi.org/10.1016/j.compeleceng.2024.109893](https://doi.org/10.1016/j.compeleceng.2024.109893)
+
+2. **Chen, X., Feng, C., & Wang, S.** (2025). AIDFL: An information-driven anomaly detector for data poisoning in decentralized federated learning. *IEEE Access*, 13, 50017–50031.  
+   * **DOI / URL:** [https://doi.org/10.1109/ACCESS.2025.3552168](https://doi.org/10.1109/ACCESS.2025.3552168)
+
+3. **Ding, Z., Wang, W., Li, X., Wang, X., Jeon, G., Zhao, J., & Mu, C.** (2024). Identifying alternately poisoning attacks in federated learning online using trajectory anomaly detection method. *Scientific Reports*, 14, 20269.  
+   * **DOI / URL:** [https://doi.org/10.1038/s41598-024-70375-w](https://doi.org/10.1038/s41598-024-70375-w)
+
+4. **Jebreel, N. M., Domingo-Ferrer, J., Sánchez, D., & Blanco-Justicia, A.** (2024). LFighter: Defending against the label-flipping attack in federated learning. *Neural Networks*, 170, 111–126.  
+   * **DOI / URL:** [https://doi.org/10.1016/j.neunet.2023.11.019](https://doi.org/10.1016/j.neunet.2023.11.019)
+
+5. **Lai, Y. C., Lin, J. Y., Lin, Y. D., Hwang, R. H., Lin, P. C., Wu, H. K., & Chen, C. K.** (2023). Two-phase defense against poisoning attacks on federated learning-based intrusion detection. *Computers & Security*, 129, 103205.  
+   * **DOI / URL:** [https://doi.org/10.1016/j.cose.2023.103205](https://doi.org/10.1016/j.cose.2023.103205)
+
+6. **Ma, W., Zhao, Q., & Tian, W.** (2025). A defense method against multi-label poisoning attacks in federated learning. *Scientific Reports*, 15, 26197.  
+   * **DOI / URL:** [https://doi.org/10.1038/s41598-025-09672-x](https://doi.org/10.1038/s41598-025-09672-x)
+
+7. **Pacheco, S. A. B.** (2024). A comprehensive survey on federated learning and its applications in health care. In *2024 IEEE International Conference on Artificial Intelligence in Engineering and Technology (IICAIET)* (pp. 407–412). IEEE.  
+   * **DOI / URL:** [https://doi.org/10.1109/IICAIET62352.2024.10730687](https://doi.org/10.1109/IICAIET62352.2024.10730687)
+
+8. **Qayyum, A., Janjua, M. U., & Qadir, J.** (2022). Making federated learning robust to adversarial attacks by learning data and model association. *Computers & Security*, 121, 102827.  
+   * **DOI / URL:** [https://doi.org/10.1016/j.cose.2022.102827](https://doi.org/10.1016/j.cose.2022.102827)
+
+9. **Raju, V., Ujang, A. H., An, Y. D., Bellamkonda, S., Yeruva, L. A., & Chawla, N.** (2026). Secure-by-design cloud architectures: Integrating machine learning with zero trust security models. In *2026 Innovations in Machine, Engineering, and Digital Conference (IMED 2026)* (pp. 1–6). IEEE.  
+   * **DOI / URL:** [https://doi.org/10.1109/IMED68921.2026.11484318](https://doi.org/10.1109/IMED68921.2026.11484318)
+
+10. **Zhu, H.-T., Huang, W.-P., & Zhang, Z.-L.** (2026). Statistical test-based adversarial client detection in federated learning under poisoning attacks. *Information Fusion*, 126, 103569.  
+    * **DOI / URL:** [https://doi.org/10.1016/j.inffus.2025.103569](https://doi.org/10.1016/j.inffus.2025.103569)
+
+---
+
+## 2. Benchmark Datasets
+
+*   **MNIST Database of Handwritten Digits**
+    *   *Reference:* LeCun, Y., Cortes, C., & Burges, C. (2010). The MNIST database of handwritten digits.
+    *   *Official Source:* [http://yann.lecun.com/exdb/mnist/](http://yann.lecun.com/exdb/mnist/)
+    *   *Usage:* Benchmark image classification dataset used to simulate distributed edge nodes and test label-flipping attacks.
+
+*   **CIFAR-10 Dataset**
+    *   *Reference:* Krizhevsky, A., & Hinton, G. (2009). *Learning multiple layers of features from tiny images* (Technical Report). University of Toronto.
+    *   *Official Source:* [https://www.cs.toronto.edu/~kriz/cifar.html](https://www.cs.toronto.edu/~kriz/cifar.html)
+    *   *Usage:* Complex multi-class image benchmark to evaluate weight shift discrepancies under non-IID conditions.
+
+*   **MIMIC-III Clinical Database**
+    *   *Reference:* Johnson, A. E., Pollard, T. J., Shen, L., Lehman, L. W., Feng, M., Ghassemi, M., Moody, B., Szolovits, P., Celi, L. A., & Mark, R. G. (2016). MIMIC-III, a freely accessible critical care database. *Scientific Data*, 3, 160035.
+    *   *Official Source / DOI:* [https://doi.org/10.1038/sdata.2016.35](https://doi.org/10.1038/sdata.2016.35)
+    *   *Usage:* De-identified healthcare time-series records for modeling collaborative cross-silo healthcare consortia.
+
+---
+
+## 3. Machine Learning & Federated Learning Frameworks
+
+*   **Flower: A Friendly Federated Learning Framework**
+    *   *Reference:* Beutel, D. J., et al. (2020). Flower: A friendly federated learning framework. *arXiv preprint arXiv:2007.14390*.
+    *   *Documentation:* [https://flower.ai/docs/](https://flower.ai/docs/)
+    *   *Repository:* [https://github.com/adap/flower](https://github.com/adap/flower)
+
+*   **PySyft (OpenMined)**
+    *   *Reference:* Ziller, A., et al. (2021). PySyft: A library for privacy-preserving machine learning.
+    *   *Documentation:* [https://openmined.github.io/PySyft/](https://openmined.github.io/PySyft/)
+    *   *Repository:* [https://github.com/OpenMined/PySyft](https://github.com/OpenMined/PySyft)
+
+*   **PyTorch**
+    *   *Reference:* Paszke, A., et al. (2019). PyTorch: An imperative style, high-performance deep learning library. *Advances in Neural Information Processing Systems*, 32.
+    *   *Official Portal:* [https://pytorch.org/](https://pytorch.org/)
+
+*   **Scikit-Learn**
+    *   *Reference:* Pedregosa, F., et al. (2011). Scikit-learn: Machine learning in Python. *Journal of Machine Learning Research*, 12, 2825–2830.
+    *   *Official Portal:* [https://scikit-learn.org/](https://scikit-learn.org/)
+    *   *Usage:* Feature extraction, distance computations, Isolation Forest, and anomaly detection models.
+
+---
+
+## 4. Open-Source Implementation Baselines
+
+*   **LFighter Implementation Codebase**
+    *   *Authors:* Jebreel, Domingo-Ferrer, Sánchez, & Blanco-Justicia (2024).
+    *   *Repository:* [https://github.com/CyberData-Security/LFighter](https://github.com/CyberData-Security/LFighter)
+    *   *Usage:* Reference implementation for gradient extraction under targeted label-flipping attacks.
+
+*   **FLGMM Statistical Control Baseline**
+    *   *Authors:* Zhu, Huang, & Zhang (2026).
+    *   *Repository Reference:* Provided via ScienceDirect supplementary software repository.
+    *   *Usage:* Baseline comparison for multi-round Statistical Process Control (SPC).
+
+---
+
+## 5. Methodological & Legal Frameworks
+
+*   **CRISP-DM Process Model**
+    *   *Reference:* Wirth, R., & Hipp, J. (2000). CRISP-DM: Towards a standard process model for data mining. In *Proceedings of the 4th International Conference on the Practical Applications of Knowledge Discovery and Data Mining* (pp. 29–39).
+*   **Personal Data Protection Act 2010 (PDPA) — Malaysia**
+    *   *Statute:* Laws of Malaysia Act 709.
+    *   *Official Source:* Department of Personal Data Protection (JPDP), Ministry of Digital.
+*   **General Data Protection Regulation (GDPR)**
+    *   *Reference:* Regulation (EU) 2016/679 of the European Parliament and of the Council.
