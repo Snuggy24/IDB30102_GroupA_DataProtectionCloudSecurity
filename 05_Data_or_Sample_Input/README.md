@@ -9,17 +9,14 @@ This directory serves as the technical repository for dataset specifications, sa
 * **Description:** A standard vision benchmark containing 70,000 grayscale images ($28 \times 28$ pixels) across 10 digit classes (0–9).
 * **Role in Research:** Used to simulate decentralized edge-node client training and evaluate model detection precision under label-flipping and noisy weight injection attacks.
 * **Data Allocation:** 60,000 training samples distributed across simulated FL client nodes; 10,000 testing samples reserved for global model validation.
-* **Official Source:** [Yann LeCun's MNIST Database](http://yann.lecun.com/exdb/mnist/)
 
 ### B. CIFAR-10 Benchmark
 * **Description:** Comprises 60,000 $32 \times 32$ color images across 10 object classes (50,000 training, 10,000 testing).
 * **Role in Research:** Provides a multi-channel dataset to test detection resilience against targeted feature perturbation and backdoor poisoning attacks.
-* **Official Source:** [CIFAR-10 Dataset Repository](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ### C. MIMIC-III Clinical Database
 * **Description:** A large, freely accessible clinical database comprising de-identified health-related data associated with ICU patients.
 * **Role in Research:** Used to simulate real-world, privacy-preserving healthcare consortia where medical centers collaboratively train predictive models without exposing raw patient records.
-* **Source / DOI:** [MIMIC-III v1.4 (DOI: 10.13026/C2XW26)](https://doi.org/10.13026/C2XW26)
 
 ---
 
