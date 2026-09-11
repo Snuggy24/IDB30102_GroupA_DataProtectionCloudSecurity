@@ -8,8 +8,8 @@ Group A
 
 #Group Members and Student IDs
 1. Member 1: Harith Hakimi Bin Mohd Fadzil – 52215124454
-2. Member 2: [Name] – [Student ID]
-3. Member 3: [Name] – [Student ID]
+2. Member 2: Nurezzatul Darwena Binti Mohd Jazrin – 52215226101
+3. Member 3: Jayquena Jane Anak Stephen – 52215226057
 4. Member 4: Madan Easwar Ganesan – 52215124402 
 
 ## Assigned Research Area
